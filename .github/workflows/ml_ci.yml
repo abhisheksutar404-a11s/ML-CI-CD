@@ -2,7 +2,7 @@ name: ML CI
 on: [push]
 
 jobs:
-  build:
+  test:
     runs-on: windows-latest
     steps:
       - name: Checkout code
